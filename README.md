@@ -1,3 +1,3 @@
 # coffee-shop
 
-## a graduation project
+## a graduation project to my friend
