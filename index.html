@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Silkscreen&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+
+      <nav class="theContainer navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a id="logo" class="navbar-brand ms-4 mb-3" href="#"><i class="bi bi-cup-hot-fill display-3 text-light"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-light"><i class="bi bi-three-dots-vertical display-3 text-light"></i></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-5 align-items-center">
+              <a class="nav-hover text-light nav-link active pe-5  h4" aria-current="page" href="#shop">Shop</a>
+              <a class="nav-hover text-light nav-link pe-5  h4" href="#coffee-club">Coffee Club</a>
+              <a class="nav-hover text-light nav-link pe-5  h4" href="#wholesale">Wholesale</a>
+              <a class="nav-hover text-light nav-link pe-5  h4" href="#products">Products</a>
+              <a class="nav-hover text-light nav-link pe-5  h4" href="#questions">Questions</a>
+              <a class="nav-hover text-light nav-link pe-5  h4" href="#contacts">Contacts</a>
+              <a class="text-light nav-link pe-5 h4" href="#shopY"><i id="logo-two" class="bi bi-cart4 h4 display-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- content -->
+      <div class="content container my-5" id="products">
+        <h3 class="text-danger text-center h1 pb-3">What <span class="display-1 fst-italic fw-bold">Coffee </span> Is Best For You?</h3>
+        <p class="lead text-center h3 fw-bold text-secondary pb-3">Learn The Science Behind Roasting.</p>
+        <div class="row justify-content-center align-items-center gx-3">
+          <div class="col-md-3 text-center m-3">
+            <div class="card">
+                <img src="css/images/lightRoast.png" class="card-img img-fluid" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center text-danger pb-2 fw-bold"><span class="display-3 fw-bold">L</span>ight Roast</h2>
+                <span class="text-center lead fw-bold">196ْ  C - 205 ْC</span>
+                <p class="lead text-center card-subtitle pt-3 fw-bold fst-italic">Lighter-bodied, higher acidity, no obvious roast flavor. This level of roast is ideal for tasting the full origin character of the coffee.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center m-3">
+            <div class="card">
+                <img src="css/images/mediumRoast.png" class="card-img img-fluid" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center text-danger pb-2 fw-bold"><span class="display-3 fw-bold">M</span>edium Roast</h2>
+                <span class="text-center lead fw-bold">210 ْC - 219 ْC</span>
+                <p class="lead text-center card-subtitle pt-3 fw-bold fst-italic">Sugars have been further caramelized, and acidity has been muted. This results in coffee with higher body, but some roast flavor imposed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center m-3">
+            <div class="card">
+                <img src="css/images/darkRoast.png" class="card-img img-fluid" alt="">
+              <div class="card-body">
+                <h2 class="card-title text-center text-danger pb-2 fw-bold"><span class="display-3 fw-bold">D</span>ark Roast</h2>
+                <span class="text-center lead fw-bold">225 ْC - 245 ْC</span>
+                <p class="lead text-center card-subtitle pt-3 fw-bold fst-italic">Bittersweet flavors are prominent, aromas and flavors of roast become clearly evident. Little, if any, origin character remains.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content Two -->
+
+      <div class="container my-4" id="shop">
+        <h3 class="text-danger text-center h1 pb-3">So <span class="display-1 fst-italic fw-bold">What's </span> Your Coffee?</h3>
+        <p class="lead text-center h3 fw-bold text-secondary pb-3 mb-4">Shop Our Premium beans.</p>
+        <div class="row justify-content-center align-items-center g-4">
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <img src="css/images/One.jfif" class="card-img img-fluid pb-3" alt="">
+              <h1 class="card-title lead h1 text-secondary my-3">San Antonio</h1>
+              <button class="btn btn-lg btn-outline-info fw-bold" data-bs-toggle="modal" data-bs-target="#reg-modal1">$ 4.50 | Buy Now</button>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <img src="css/images/Two.jfif" class="card-img img-fluid pb-3" alt="">
+              <h1 class="card-title lead h1 text-secondary my-3">Rugoardo</h1>
+              <button class="btn btn-lg btn-outline-success fw-bold" data-bs-toggle="modal" data-bs-target="#reg-modal2">$ 5.50 | Buy Now</button>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <img src="css/images/Four.jfif" class="card-img img-fluid pb-3" alt="">
+              <h1 class="card-title lead h1 text-secondary my-3">Malarbar</h1>
+              <button class="btn btn-lg btn-outline-warning fw-bold" data-bs-toggle="modal" data-bs-target="#reg-modal3">$ 6.50 | Buy Now</button>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="card">
+              <img src="css/images/Three.jfif" class="card-img img-fluid pb-3" alt="">
+              <h1 class="card-title lead h1 text-secondary my-3">Impressa</h1>
+              <button class="btn btn-lg btn-outline-danger fw-bold" data-bs-toggle="modal" data-bs-target="#reg-modal4">$ 7.50 | Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- modals -->
+
+
+
+
+      <!-- modal 1 -->
+      <div class="modal fade" id="reg-modal1" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-info">San Antonio falvor</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="h4">Taste of San Antonio is described as a “medium-bodied coffee with subtle undertones of cinnamon, chocolate, and vanilla” and I wouldn't disagree.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p class="text-info text-center my-2 h3">Sign in to Buy</p>
+              <form>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </span>
+                  <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal 2 -->
+      <div class="modal fade" id="reg-modal2" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-success">Rugoardo falvor</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="h4"> It features a complex blend of flavors, including a sweet and sour taste with hints of lemon acidity, sweet chocolate, and a wonderful almond flavor.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p class="text-success text-center my-2 h3">Sign in to Buy</p>
+              <form>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </span>
+                  <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal 3 -->
+      <div class="modal fade" id="reg-modal3" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-warning">Malabar falvor</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="h4">Monsoon Malabar coffee is extremely flavorful, you may expect strong spicy, smoky, and earthy notes or malty sweetness.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p class="text-warning text-center my-2 h3">Sign in to Buy</p>
+              <form>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </span>
+                  <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal 4 -->
+      <div class="modal fade" id="reg-modal4" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-danger">Impressa falvor</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="h4">A high pressure pump produces great flavor and crema and the fine foam technology adds a flavorful milk foam finish.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <p class="text-danger text-center my-2 h3">Sign in to Buy</p>
+              <form>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </span>
+                  <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- about machine -->
+
+
+
+      <div class="container" id="shopY">
+        <h3 class="text-danger text-center h1 pb-3">Our <span class="display-1 fst-italic fw-bold">Coffee </span> Machines.</h3>
+        <div class="row my-5 ">
+        <div class="col-md-6 justify-content-start pb-5 ps-5">
+          <img src="css/images/machine.jfif" id="firstImage" class="machine img-fluid" alt="">
+        </div>
+        <div class="col-md-6 justify-content-end">
+          <p class="h1 fw-bold">Compliment The Best Coffee <br> With Best Coffee Machine <br> From <span class="fw-bold text-danger display-5">JURA</span></p>
+          <p class="lead fst-italic">Great Success begins with a Great cup of coffee. <br> JURA Coffee machines are the perfect complement to any office <br> space. Coffee at the touch of a button.</p>
+          <a href="https://shopjura.com" target="_blank"><button class="btn btn-danger">Shop Coffee Machine</button></a>
+          <div class="container mt-5">
+            <h1>Available Machines</h1>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageA()"><i class="bi bi-1-circle-fill"> -></i>  $20.99</button>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageB()"><i class="bi bi-2-circle-fill"> -></i>  $21.99</button>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageC()"><i class="bi bi-3-circle-fill"> -></i>  $22.99</button>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageD()"><i class="bi bi-4-circle-fill"> -></i>  $23.99</button>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageE()"><i class="bi bi-5-circle-fill"> -></i>  $24.99</button>
+            <button class="btn btn-outline-secondary px-3 me-1 mt-2 fw-bold" onclick="changeImageF()"><i class="bi bi-6-circle-fill"> -></i>  $25.99</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scroll arrow -->
+
+      <button id="scroll-to-top-btn" class="btn btn-danger" style="display: none;"><i class="bi bi-arrow-up fw-bold h1"></i></button>
+    
+      <!-- Accordion -->
+
+    <h3 id="coffee-club" class="text-danger text-center h1 pb-3"><span class="display-1 fst-italic fw-bold">Coffee </span> Recipes</h3>
+    <p class="lead text-center h3 fw-bold text-secondary pb-3 mb-4">curated by & for coffee lovers...try them all</p>
+    <div class="accordion container my-5" id="chapters">
+        
+      <!-- first Accordion -->
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="header-1">
+            <button class="accordion-button text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+              <i class="bi bi-cup-hot h1">    Adam's Vanilla Dream</i>
+            </button>
+          </h2>
+          <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+            <div class="accordion-body">
+              <div class="row my-3 align-items-center">
+                <div class="col-md-6 text-center">
+                  <p class="lead text-center h3 fw-bold text-secondary pb-3">A deliciously temting apple vanilla coffee</p>
+                </div>
+                <div class="col-md-6 text-center ">
+                  <img src="css/images/accordionOne.jfif" class="img-fluid" id="accordion-one" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second Accordion -->
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="header-2">
+            <button class="accordion-button collapsed text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+              <i class="bi bi-cup-hot-fill h1">   Advent Coffee</i>
+            </button>
+          </h2>
+          <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+            <div class="accordion-body">
+              <div class="row my-3 align-items-center">
+                <div class="col-md-6 text-center">
+                  <p class="lead text-center h3 fw-bold text-secondary pb-3">A deliciously temting apple vanilla cold coffee</p>
+                </div>
+                <div class="col-md-6 text-center ">
+                  <img src="css/images/accordionTwo.jfif" class="img-fluid" id="accordion-two" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- third Accordion -->
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="header-3">
+            <button class="accordion-button collapsed text-warning fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">
+              <i class="bi bi-cup-straw h1">   Cafe con Coco</i>
+              
+            </button>
+          </h2>
+          <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+            <div class="accordion-body">
+              <div class="row my-3 align-items-center">
+                <div class="col-md-6 text-center">
+                  <p class="lead text-center h3 fw-bold text-secondary pb-3">Cafe con Coco - the decorative speciality coffee with Caribbean flair.</p>
+                </div>
+                <div class="col-md-6 text-center ">
+                  <img src="css/images/accordionThree.jfif" class="img-fluid" id="accordion-three" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- image -->
+
+      <h3 id="wholesale" class="text-danger text-center h1 pb-3"><span class="display-1 fst-italic fw-bold">Need </span> WholeSale? <a id="span" href="#sidebar" class="lead text-danger mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">(Contact Us)</a></h3>
+      <div class="image p-5 my-5">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-6 text-center">
+            <h2 class="text-center text-light fw-bold m-3 pb-4">SINCE 1931 <br> THE BEAN-TO-CUP EXPERIENCE <br> <span class="h1">JURA INC.</span></h2>
+            <a href="https://www.jura.com" target="_blank" id="about-jura-button" class="btn btn-danger btn-lg p-3 text-light fw-bold">ABOUT JURA</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="css/images/ballsLeft.jfif" id="balls-left" alt="" class="img-fluid w-75 mt-4">
+          </div>
+        </div>
+      </div>
+
+      <!-- offcanvas -->
+
+      <div class="offcanvas offcanvas-start bg-dark" id="sidebar" tabindex="-1">
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title text-light fw-bold mt-2" id="sidebar-label">Social Media :</h3>
+          <button class="btn-close bg-light" type="button" data-bs-dismiss="offcanvas" aria-label="close"></button>
+        </div>
+        <div class="offcanvas-body ms-3">
+          <h4 class="text-light pb-4"><i class="bi bi-facebook"><a href="https://www.facebook.com/profile.php?id=100015328514071&mibextid=ZbWKwL" target="_blank" class="text-decoration-none text-light">   Facebook</a></i></h4>
+          <h4 class="text-light pb-4"><i class="bi bi-whatsapp"><a href="https://wa.me/0991621149" target="_blank" class="text-decoration-none text-light">   Whatsapp</a></i></h4>
+          <h4 class="text-light pb-4"><i class="bi bi-telegram"><span  class="accounts text-decoration-none text-light" data-bs-toggle="modal" data-bs-target="#telegram">   Telegram</span></i></h4>
+          <h4 class="text-light pb-4"><i class="bi bi-instagram"><span  class="accounts text-decoration-none text-light" data-bs-toggle="modal" data-bs-target="#instagram">   Instagram</span></i></h4>
+          <p id="copy-rights" class="lead text-center justify-content-center align-items-center text-light">@CopyRights 2023</p>
+        </div>
+      </div>
+      <!-- https://wa.me/0991621149 -->
+
+      <!-- modals for contacts -->
+      <!-- modal 1 -->
+      <div class="modal fade" id="telegram" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-success">Follow Me On Telegram</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="css/images/teleImage.jpg" class="img-fluid rounded">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal 2 -->
+      <div class="modal fade" id="instagram" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-warning">Follow Me On Instagram</h2>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="css/images/instaImage.jpg" class="img-fluid rounded">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- form -->
+
+
+
+
+      <h3 id="questions" class="text-danger text-center h1 pb-3">having <span class="display-2 fst-italic fw-bold"> questions ?</span></h3>
+      <p class="lead text-center h3 fw-bold text-secondary pb-3 mb-4">fill this form with your details and ask us</p>
+      <div class="container rounded my-5">
+        <div class="row justify-content-center my-3">
+          <div class="col-lg-6 bg-light rounded">
+            <form>
+              <label for="email" class="form-label p-3">Email address:</label>
+              <div class="mb-4 input-group p-3">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </span>
+                <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com">
+              </div>
+    
+              <label for="text" class="form-label p-3">Your Full Name:</label>
+              <div class="mb-4 input-group p-3">
+                <span class="input-group-text">
+                  <i class="bi bi-person-circle"></i>
+                </span>
+                <input type="text" id="text" class="form-control" placeholder="e.g. Mario">
+              </div>
+    
+              <label for="subject" class="form-label p-3">What is your question about?</label>
+              <div class="mb-4 input-group p-3">
+                <span class="input-group-text">
+                  <i class="bi bi-question-circle-fill"></i>
+                </span>
+                <select id="subject" class="form-select">
+                  <option value="pricing" selected>Pricing query</option>
+                  <option value="content">Content query</option>
+                  <option value="other">Other query</option>
+                </select>
+              </div>
+    
+              <label for="query" class="form-label p-3">Your query:</label>
+              <textarea id="query" class="form-control p-3" style="height: 140px;"></textarea>
+              
+              <div class="text-center">
+                <button type="submit" class="btn btn-outline-dark my-3 p-2 fw-bold" data-bs-toggle="modal" data-bs-target="#submmiting">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal for submit -->
+      <div class="modal fade" id="submmiting" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body text-center">
+              <img src="css/images/celebrate2.png" class="img-fluid text-center">
+                <h2 class="modal-title text-danger h3 text-center py-3">your query has been sent</h2>
+              <i class="bi bi-star-fill text-danger"></i>
+              <i class="bi bi-star-fill text-danger"></i>
+              <i class="bi bi-star-fill text-danger"></i>
+              <p class="h5 pt-4">we will answer you back soon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- footer -->
+
+
+
+
+      <h3 id="contacts" class="text-danger text-center h1 pb-3">Our <span class="display-1 fst-italic fw-bold"> Contacts</span></h3>
+      <p class="lead text-center h3 fw-bold text-secondary pb-3 mb-4">Call Us Now And Buy Any Coffee Machines Or Coffee Flavors</p>
+        <div class="container my-3 text-center">
+          <a href="https://www.facebook.com/profile.php?id=100015328514071&mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook display-5 text-dark mx-3"></i></a>
+          <a href="https://wa.me/0991621149" target="_blank"><i class="bi bi-whatsapp display-5 text-dark mx-3"></i></a>
+          <span class="accounts" data-bs-toggle="modal" data-bs-target="#telegram"><i class="bi bi-telegram display-5 text-dark mx-3"></i></span>
+          <span class="accounts" data-bs-toggle="modal" data-bs-target="#instagram"><i class="bi bi-instagram display-5 text-dark mx-3"></i></span>
+        </div>
+
+        <div class="container my-5 text-center">
+          <h2>Thanks For Visiting Us</h2>
+          <p class="pt-3">@CopyRights 2023</p>
+        </div>
+
+
+
+
+      <!-- scripting -->
+
+
+
+
+      
+
+      <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

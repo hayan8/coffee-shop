@@ -1,0 +1,110 @@
+* {
+  font-family: 'Rubik Gemstones', cursive;
+  /* font-family: 'Silkscreen', cursive; */
+  /* font-family: 'Tilt Prism', cursive; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: #c8c7c7;
+}
+
+.theContainer {
+  background-image: linear-gradient(to right, rgb(95, 24, 24), rgba(124, 31, 31, 0.882) ,rgba(104, 24, 24, 0.751));
+  border-radius: 0 0 50px 50px;
+  
+}
+
+#logo:hover {
+  transform: rotate(20deg);
+  transition: transform 0.3s;
+  transition-timing-function: linear;
+}
+
+#logo-two {
+  opacity: 0.7;
+}
+
+#logo-two:hover {
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.nav-hover:hover {
+  text-decoration: underline;
+  font-size: 25px;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 10px 15px 20px 0px #c8c7c7;
+}
+
+.machine {
+  width: 320px;
+  height: 400px;
+}
+
+#scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 200px;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+#scroll-to-top-btn:hover {
+  opacity: 0.8;
+}
+
+#accordion-one,
+#accordion-two,
+#accordion-three {
+  width: 330px;
+  height: 220px;
+  border-radius: 1000px;
+}
+
+.image {
+  background-image: url("../css/images/coffeeBalls.jpg");
+  background-size: contain;
+}
+
+#balls-left {
+  border-radius: 200px;
+  opacity: 0.6;
+}
+
+#balls-left:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+#span {
+  text-decoration: none;
+}
+
+#span:hover {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#about-jura-button {
+  border-radius: 200px;
+}
+
+#copy-rights {
+  position: relative;
+  top: 280px;
+  right: 17px;
+}
+
+.accounts {
+  cursor: pointer;
+}
